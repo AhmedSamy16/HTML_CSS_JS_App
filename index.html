@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+    <title>Template 4</title>
+</head>
+<body>
+    <!-- Start global elements  -->
+    <!-- Start Settings Box  -->
+    <div class="settings">
+        <i class="fas fa-tools icon"></i>
+        <div class="box">
+            <span class="remove">X</span>
+            <div class="option">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03a"></li>
+                    <li data-color="#0ef165"></li>
+                </ul>
+            </div>
+            <div class="option">
+                <h4>Random Background</h4>
+                <div class="random-options">
+                    <span class="yes active" data-back="yes">Yes</span>
+                    <span class="no" data-back="no">No</span>
+                </div>
+            </div>
+            <div class="option">
+                <h4>Show Bullets</h4>
+                <div class="bullets-options">
+                    <span class="yes active" data-display="block">Yes</span>
+                    <span class="no" data-display="none">No</span>
+                </div>
+            </div>
+            <button class="reset">Reset Options</button>
+        </div>
+    </div>
+    <!-- End Settings Box  -->
+    <!-- Start Nav Bullets  -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about">
+            <div class="tooltip">About US</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact</div>
+        </div>
+    </div>
+    <!-- End Nav Bullets  -->
+    <!-- End global elements  -->
+    <!-- start landing  -->
+    <div class="landing">
+        <div class="container">
+            <div class="header">
+                <div class="logo">Ahmed Samy</div>
+                <div class="links-content">
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#skills">Our Skills</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#features">Our Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+        </div>
+    </div>
+    <!-- end landing  -->
+    <!-- start about us  -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="info">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+            </div>
+            <div class="image">
+                <img src="images/about-us.jpg" alt="about us">
+            </div>
+        </div>
+    </div>
+    <!-- end about us  -->
+    <!-- start skills  -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-width="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-width="85%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress">
+                    <span data-width="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">SASS</div>
+                <div class="skill-progress">
+                    <span data-width="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">React</div>
+                <div class="skill-progress">
+                    <span data-width="90%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end skills  -->
+    <!-- start gallery  -->
+    <div class="gallery" id="gallery">
+        <h2>Our Gallery</h2>
+        <div class="container">
+            <div class="image">
+                <img src="images/gallery1.jpg" alt="Dog">
+            </div>
+            <div class="image">
+                <img src="images/gallery2.jpg" alt="Beach">
+            </div>
+            <div class="image">
+                <img src="images/gallery3.jpg" alt="Bird">
+            </div>
+            <div class="image">
+                <img src="images/gallery4.jpg" alt="Camera">
+            </div>
+            <div class="image">
+                <img src="images/gallery5.jpg" alt="Relationship">
+            </div>
+            <div class="image">
+                <img src="images/gallery6.jpg" alt="Mountains">
+            </div>
+            <div class="image">
+                <img src="images/gallery7.jpg" alt="Homes">
+            </div>
+            <div class="image">
+                <img src="images/gallery8.jpg" alt="Building">
+            </div>
+        </div>
+    </div>
+    <!-- end gallery  -->
+    <!-- start timeline  -->
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Header</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Header</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Header</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Header</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Header</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis eum libero impedit eius cupiditate eligendi quis omnis rerum corrupti velit.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline  -->
+    <!-- start features  -->
+    <div class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <i class="fas fa-user-shield fa-4x"></i>
+                <h4>Security</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="feat-box">
+                <i class="fas fa-tools fa-4x"></i>
+                <h4>Fixing Issues</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="feat-box">
+                <i class="fas fa-map-marked-alt fa-4x"></i>
+                <h4>Location</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="feat-box">
+                <i class="fas fa-laptop-code fa-4x"></i>
+                <h4>Coding</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="feat-box">
+                <i class="fas fa-palette fa-4x"></i>
+                <h4>Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="feat-box">
+                <i class="fas fa-bullhorn fa-4x"></i>
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+        </div>
+    </div>
+    <!-- end features  -->
+    <!-- start Testimonials -->
+    <div class="testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="container">
+            <div class="ts-box">
+                <img src="images/person1.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="ts-box">
+                <img src="images/person2.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="ts-box">
+                <img src="images/person3.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="ts-box">
+                <img src="images/person4.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="ts-box">
+                <img src="images/person5.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+            <div class="ts-box">
+                <img src="images/person6.jpg" alt="">
+                <h4>Ahmed Samy</h4>
+                <p>CEO At Company</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod accusamus quidem sed dolorem perspiciatis..</p>
+            </div>
+        </div>
+    </div>
+    <!-- start Testimonials -->
+    <!-- start contact us  -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="name">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="mail">
+                    <input type="text" placeholder="Your Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </div>
+                <input type="submit" name="Submit" class="send">
+            </form>
+        </div>
+    </div>
+    <!-- end contact us  -->
+    <!-- start footer  -->
+    <div class="footer">Created By Ahmed Samy With &lt;3</div>
+    <!-- end footer  -->
+    <script src="main.js"></script>
+</body>
+</html>
